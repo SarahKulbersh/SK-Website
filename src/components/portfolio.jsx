@@ -6,6 +6,8 @@ import Chani from '../files/Chani.gif';
 import Racheli from '../files/Racheli.gif';
 import mm from '../files/מלאכת מחשבת.gif'
 import './portfolio.css';
+
+
 export default function Portfolio() {
 
     return (
