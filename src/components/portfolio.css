@@ -1,0 +1,6 @@
+.pic{
+        outline: 1.6px dashed burlywood;
+        outline-offset: 0.5em;
+  object-fit: contain;
+
+}
