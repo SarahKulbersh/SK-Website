@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font: 600 62.5% "Lato", sans-serif;
+    background-color: #17141d;
+  }
+  
+  a {
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    color: #a1a1af;
+  }
+  
+  /* Tag styles */
+  a.tag {
+    display: block;
+    padding: 0.3em 0.85em;
+    margin: 0.5em;
+    text-transform: uppercase;
+    border: 3px solid #28242f;
+    border-radius: 2em;
+    transition: transform 0.2s cubic-bezier(0.45, -0.85, 0.55, -0.45);
+  
+    &:hover {
+      transform: scale(1.2);
+      background: linear-gradient(to right, teal, orange);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  
+  /* Container styles */
+  .container {
+    margin: 2em 6em;
+    padding: 3em;
+    padding-left: 1em;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: #a1a1af;
+    border: 1px solid #28242f;
+    border-radius: 0.35em;
+    background-color: #201c29;
+    background-image: url(https://css-tricks.com/wp-content/themes/CSS-Tricks-17/images/featured-comment.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 70% 50%;
+    box-shadow: 0 10px 60px #070509;
+  
+    .tags {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      span {
+        margin-right: 1em;
+        padding: 1em;
+        text-transform: uppercase;
+        transform: rotate(180deg);
+        writing-mode: vertical-rl;
+        border-left: 3px solid #28242f;
+        background: linear-gradient(to right, teal, orange);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+  
+      a:last-child {
+        margin-left: 0.5em;
+  
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  
+    /* Search section styles */
+    label {
+      position: relative;
+      white-space: nowrap;
+      display: flex;
+      width: 48px;
+      height: 48px;
+      align-items: center;
+      justify-content: flex-end;
+      border: 3px solid transparent;
+      border-radius: 2em;
+      background-color: #17141d;
+      background-image: radial-gradient(circle at 0%, teal, orange);
+      transition: all 250ms ease-in-out;
+  
+      &::before {
+        position: absolute;
+        right: 0;
+        bottom: -20px;
+        z-index: 0;
+        transform: rotate(-35deg);
+        width: 4px;
+        height: 25px;
+        content: "";
+        border-radius: 2px
+      }
+    }
+};

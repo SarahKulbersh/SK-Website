@@ -48,7 +48,7 @@ export default function Header(props: Props) {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar component="nav">
+      <AppBar component="nav" sx={{backgroundColor:'purple'}}>
         <Toolbar>
           <IconButton
             color="inherit"

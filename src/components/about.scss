@@ -1,0 +1,77 @@
+$gcolor: #17141d; // global color
+$color_: #a1a1af; // text
+$border: #28242f;
+$blocks: #201c29;
+$shadow: #070509;
+
+h2 {
+  text-align: left;
+  margin-left: 7%;
+}
+
+h1 {
+
+  text-align: left;
+  margin-left: 7%;
+
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  margin-left: 7%;
+  margin-right: 7%;
+
+}
+
+// #gg {
+//   margin-right: 1em;
+//   padding: 1em;
+//   text-transform: uppercase;
+//   transform: rotate(180deg);
+//   writing-mode: vertical-rl;
+//   border-left: 3px solid $border;
+//   background: linear-gradient(to right, teal, orange);
+//   font-size: 120%;
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+// }
+
+// .tags {
+//   margin: 0;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   margin-left: 7%;
+//   height: 100px;
+
+//   a:last-child {
+//     margin-left: 0.5em;
+
+//     &:hover {
+//       color: white;
+//     }
+//   }
+// }
+
+// ;
+
+.diagonal {
+  padding: 2rem ;
+
+}
+
+.diagonal:nth-child(2) {
+  background: purple;
+  color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  padding-top: 10rem 10%;
+  padding-bottom: 20%;
+
+}
+
+body {
+  margin: 0;
+  font: 20px/2.2 system-ui;
+}

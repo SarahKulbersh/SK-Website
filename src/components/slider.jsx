@@ -1,7 +1,13 @@
+//https://github.com/leandrowd/react-responsive-carousel
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./styles.css";
+
+function b(){
+  alert("got clicked");
+}
+
 const responsive = {
   desktop: {
     breakpoint: { max: 2000, min: 1024 },
@@ -23,28 +29,36 @@ const sliderImageUrl = [
   //First image url
   {
     url:
-      "https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D"
+    require('../files/Chani.gif'),
   },
   {
     url:
-      "https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D"
+    require('../files/Racheli.gif')
   },
   //Second image url
   {
     url:
-      "https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D"
+    require('../files/Pre-comp 2_1.gif')
   },
   //Third image url
   {
     url:
-      "https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D"
+    require('../files/ez.gif')
   },
 
   //Fourth image url
 
   {
     url:
-      "https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D"
+    require('../files/sk.gif')
+  },
+  {
+    url:
+    require('../files/tb.gif')
+  },
+  {
+    url:
+    require('../files/mm.gif')
   }
 ];
 const Slider = () => {
@@ -52,7 +66,7 @@ const Slider = () => {
     <div className="parent">
       <Carousel
         responsive={responsive}
-        autoPlay={true}
+        autoPlay={false}
         swipeable={true}
         draggable={true}
         showDots={true}
@@ -63,7 +77,7 @@ const Slider = () => {
         {sliderImageUrl.map((imageUrl, index) => {
           return (
             <div className="slider" key={index}>
-              <img src={imageUrl.url} alt="movie" id="frame"/>
+              <img src={imageUrl.url} alt="movie" id="frame" onClick={b} />
             </div>
           );
         })}
