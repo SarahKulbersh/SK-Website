@@ -3,7 +3,7 @@ import { Chip } from '@mui/material';
 import { Stack } from '@mui/material';
 import { MDBBtn } from 'mdb-react-ui-kit';
 import './about.scss';
-
+import computer from '../files/computer.png';
 export default function About() {
 
 
@@ -22,8 +22,11 @@ export default function About() {
                 flexWrap: "nowrap", // Prevent wrapping
                 margin:'5px',
                 padding:'10px',
-                border: '1.5px dashed burlywood',
-                fontFamily:'Eras Light ITC'
+                border: '2px solid #D59B33',
+                fontFamily:'dosis-light',
+                color: 'white',
+                fontSize:'16px'
+
                 
             }}
         />
@@ -32,11 +35,11 @@ export default function About() {
 
     return (
         <div className='diagonal' >
-
-            <br /><br /><br /><br />
-            <h1>Sarah Kulbersh</h1>
-            <h2>Software Developer</h2>
-            <h4>I am a developer with a passion for design and creativity. I have experience working with After Effects, Illustrator, UI/UX design, and various programming languages. I am skilled at creating engaging and visually appealing video content, as well as designing and developing user-friendly and efficient interfaces.
+            <img src={computer} className='image' style={{width:'40%', float:'right', marginTop:'250px', marginRight:'7%'}}/>
+            <br /><br /><br/>
+            <h1 className='text'>SARAH KULBERSH</h1>
+            <h2 className='text'>Software Developer</h2>
+            <h4 className='text'>I am a developer with a passion for design and creativity. I have experience working with After Effects, Illustrator, UI/UX design, and various programming languages. I am skilled at creating engaging and visually appealing video content, as well as designing and developing user-friendly and efficient interfaces.
 
                 I am passionate about createing positive experiences for people. I believe that everyone should have access to high-quality design and development services, regardless of their budget or experience level. That's why I offer my services at a competitive price and provide a free consultation to all potential clients.
 
@@ -44,16 +47,13 @@ export default function About() {
 
 
             <br />
-            <MDBBtn size="lg" className="ms-2" style={{ backgroundColor: 'purple', borderRadius: '80px' }}>
+            <MDBBtn size="lg" className="ms-2" style={{ backgroundColor: 'black',border:'2px solid #D59B33', borderRadius: '80px', boxShadow:'none' }}>
                 <a href={require("../files/Sarah Kulbersh.pdf")} download="Sarah Kulbersh" style={{ color: 'white' }}>Download CV</a>
             </MDBBtn>
-            {/* <p className="tags">
-
-            <span id='gg'>Tags</span> */}
-            <Stack direction="row" margin='50px' justifyContent="justify" flexWrap="wrap">
+            <h1>Skills</h1>
+            <Stack direction="row" margin='50px' marginRight='45%' justifyContent="justify" flexWrap="wrap">
                 {chips}
             </Stack>
-            {/* </p> */}
         </div>
     );
 

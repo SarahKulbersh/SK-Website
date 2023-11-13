@@ -64,12 +64,13 @@ const sliderImageUrl = [
 const Slider = () => {
   return (
     <div className="parent">
+          <h1>After Effects</h1>
       <Carousel
         responsive={responsive}
         autoPlay={false}
         swipeable={true}
         draggable={true}
-        showDots={true}
+        showDots={false}
         infinite={true}
         partialVisible={false}
         dotListClass="custom-dot-list-style"

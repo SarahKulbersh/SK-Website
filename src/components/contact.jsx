@@ -11,6 +11,7 @@ import Alert from '@mui/material/Alert';
 import IconButton from '@mui/material/IconButton';
 import Collapse from '@mui/material/Collapse';
 import CloseIcon from '@mui/icons-material/Close';
+import bg from '../files/bg.jpg';
 
 export default function Contact() {
 
@@ -58,8 +59,8 @@ export default function Contact() {
                 <MDBCol>
                     <MDBCard className="my-4 shadow-3">
                         <MDBRow className="g-0">
-                            <MDBCol md="6" className="d-xl-block bg-image">
-                                <MDBCardImage src="https://burst.shopifycdn.com/photos/hiker-looks-up-at-vertical-mountain-peaks.jpg?width=1000&format=pjpg&exif=0&iptc=0" alt="Sample photo" fluid />
+                            <MDBCol md="6" className="d-xl-block bg-image" >
+                                <MDBCardImage src={bg} alt="Sample photo" fluid />
                                 <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
                                     <div className="justify-content-center align-items-center h-100">
                                         <div className="text-center" style={{ marginTop: '20%' }}>
@@ -103,9 +104,9 @@ export default function Contact() {
                                     </div>
                                 </div>
                             </MDBCol>
-                            <MDBCol md="6">
+                            <MDBCol md="6" style={{backgroundColor:'black'}}>
                                 <MDBCardBody className="p-md-5 text-black"  >
-                                    <MDBTypography tag="h3" className="mb-4 text-uppercase">Get In Touch</MDBTypography>
+                                    <MDBTypography tag="h3" className="mb-4 text-uppercase" style={{color:'#D59B33'}}>Get In Touch</MDBTypography>
 
                                     <form onSubmit={handleSubmit} className="emailForm">
 
@@ -115,6 +116,7 @@ export default function Contact() {
                                             className="mb-4"
                                             size="lg"
                                             required
+                                            contrast
                                             value={name}
                                             onChange={(e) => setName(e.target.value)}
                                         />
@@ -126,6 +128,7 @@ export default function Contact() {
                                             size="lg"
                                             required
                                             value={email}
+                                            contrast
                                             onChange={(e) => setEmail(e.target.value)}
                                         />
 
@@ -135,10 +138,11 @@ export default function Contact() {
                                             rows={4}
                                             style={{ border: "2px solid green!important" }}
                                             required
+                                            contrast
                                             value={message}
                                             onChange={(e) => setMessage(e.target.value)}></MDBTextArea>
                                         <div className="d-flex justify-content-center pt-3">
-                                            <MDBBtn size="lg" type="submit" className="ms-2" style={{ backgroundColor: 'purple' }}>Send Message</MDBBtn>
+                                            <MDBBtn size="lg" type="submit" className="ms-2" style={{ backgroundColor: 'black',border:'2px solid #D59B33', borderRadius: '80px', boxShadow:'none' }}>Send Message</MDBBtn>
                                         </div>
                                         <br/>
                                         <Box  sx={{ width: '100%' , marginLeft:'25%'}}>

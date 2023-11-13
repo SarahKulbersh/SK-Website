@@ -14,9 +14,9 @@ import './portfolio.css';
 export default function Portfolio() {
 
     return (
-        <div style={{ display: 'flex', flexWrap: 'wrap',    justifyContent: 'center', alignItems:'center',   height: '100vh'
-
-    }}>
+        
+        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems:'center', height: '100vh'}}>
+    <h1>Project Demo's</h1>
 
             <Card sx={{ maxWidth: 345, margin:'10px' }}>
                 <CardActionArea>
