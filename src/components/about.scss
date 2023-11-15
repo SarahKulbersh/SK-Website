@@ -4,98 +4,53 @@ $border: #28242f;
 $blocks: #201c29;
 $shadow: #070509;
 
-@font-face {
-  font-family: 'Quicksand-Light';
-  src: url('../../fonts/quicksand/Quicksand-Light.ttf');
-}
-@font-face {
-  font-family: 'Quicksand-Bold';
-  src: url('../../fonts/quicksand/Quicksand-Bold.ttf');
-}
-@font-face {
-  font-family: 'Quicksand-Regular';
-  src: url('../../fonts/quicksand/Quicksand-Regular.ttf');
-}
-@font-face {
-  font-family: 'pleasing-moment';
-  src: url('../../fonts/pleasing-moment/Pleasing\ Moment.ttf');
-}
-@font-face {
-  font-family: 'sansation';
-  src: url('../../fonts/sansation/Sansation_Regular.ttf');
-}
-@font-face {
-  font-family: 'dosis-medium';
-  src: url('../../fonts/dosis/Dosis-Medium.ttf');
-}
-@font-face {
-  font-family: 'dosis-bold';
-  src: url('../../fonts/dosis/Dosis-Bold.ttf');
-}
-
-@font-face {
-  font-family: 'dosis-light';
-  src: url('../../fonts/dosis/Dosis-Light.ttf');
-}
-@font-face {
-  font-family: 'dosis-bold';
-  src: url('../../fonts/dosis/Dosis-SemiBold.ttf');
-}
-h2 {
-  font-family: 'dosis-medium';
-  text-align: left;
-  margin-left: 7%;
-  color:  #D59B33;
-
-}
-
-h1 {
-  font-family: 'dosis-medium';
-  font-size: 50px;
-  text-align: left;
-  margin-left: 7%;
-  color: #D59B33;
-
-}
-
-h4 {
-  font-family: 'dosis-medium';
-  font-size: 20px;
-  line-height: 30px;
-  text-align: justify;
-  margin-left: 7%;
-  margin-right: 7% ;
-
-}
-
-// #595959
-//https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient
 .diagonal {
-  background-image: radial-gradient(closest-side , #595959 ,black );
-  height: fit-content;
-  padding: 2rem ;
+  background-image: radial-gradient(closest-side, #595959, black);
+  height: 1150px;
+  padding: 2rem;
 
 }
 
 
 
 .diagonal:nth-child(2) {
-  // background: purple;
   color: white;
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
   padding-top: 10rem 10%;
   padding-bottom: 20%;
 
 }
 
 body {
-  margin: 0;
-  font: 20px/2.2 system-ui;
+  text-align: center;
+}
+
+.stk {
+  margin-right: 45%;
+  margin-left: 7%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .stk {
+    margin-right: 7%;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
   .image {
-  display: none;
-  }
+    display: none;
   }
 
+  .stk {
+    margin-right: 7%;
+  }
+
+
+}
+
+@media only screen and (max-width: 650px) {
+  .diagonal {
+    height: 1340px;
+
+  }
+}

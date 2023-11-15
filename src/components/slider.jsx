@@ -4,9 +4,6 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./styles.css";
 
-function b(){
-  alert("got clicked");
-}
 
 const responsive = {
   desktop: {
@@ -29,42 +26,42 @@ const sliderImageUrl = [
   //First image url
   {
     url:
-    require('../files/Chani.gif'),
+      require('../files/Chani.gif'),
   },
   {
     url:
-    require('../files/Racheli.gif')
+      require('../files/Racheli.gif')
   },
   //Second image url
   {
     url:
-    require('../files/Pre-comp 2_1.gif')
+      require('../files/Pre-comp 2_1.gif')
   },
   //Third image url
   {
     url:
-    require('../files/ez.gif')
+      require('../files/ez.gif')
   },
 
   //Fourth image url
 
   {
     url:
-    require('../files/sk.gif')
+      require('../files/sk.gif')
   },
   {
     url:
-    require('../files/tb.gif')
+      require('../files/tb.gif')
   },
   {
     url:
-    require('../files/mm.gif')
+      require('../files/mm.gif')
   }
 ];
 const Slider = () => {
   return (
     <div className="parent">
-          <h1>After Effects</h1>
+      <h3 style={{ color: '#D59B33' }}>After Effects</h3>
       <Carousel
         responsive={responsive}
         autoPlay={false}
@@ -78,7 +75,7 @@ const Slider = () => {
         {sliderImageUrl.map((imageUrl, index) => {
           return (
             <div className="slider" key={index}>
-              <img src={imageUrl.url} alt="movie" id="frame" onClick={b} />
+              <img src={imageUrl.url} alt="movie" id="frame" />
             </div>
           );
         })}

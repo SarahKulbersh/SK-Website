@@ -1,0 +1,60 @@
+  @font-face {
+    font-family: 'dosis-medium';
+    src: url('../../fonts/dosis/Dosis-Medium.ttf');
+  }
+
+  @font-face {
+    font-family: 'dosis-bold';
+    src: url('../../fonts/dosis/Dosis-Bold.ttf');
+  }
+
+  @font-face {
+    font-family: 'dosis-light';
+    src: url('../../fonts/dosis/Dosis-Light.ttf');
+  }
+
+  @font-face {
+    font-family: 'dosis-semibold';
+    src: url('../../fonts/dosis/Dosis-SemiBold.ttf');
+  }
+
+  h2 {
+    font-family: 'dosis-medium';
+    text-align: left;
+    margin-left: 7%;
+    color: #D59B33;
+
+  }
+
+  h1 {
+    font-family: 'dosis-medium';
+    font-size: 50px;
+    text-align: left;
+    margin-left: 7%;
+    color: #D59B33;
+
+  }
+
+  h3 {
+    font-family: 'dosis-medium';
+    text-align: left;
+    margin-left: 7%;
+    font-size: 40px;
+  }
+
+  h4 {
+    font-family: 'dosis-light';
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    margin-left: 7%;
+    margin-right: 7%;
+    color: white;
+
+  }
+
+  h6 {
+    font-family: 'dosis-light';
+    font-size: 17px;
+    color: white;
+  }
