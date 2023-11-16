@@ -36,7 +36,7 @@ export default function About() {
 
     return (
         <div className='diagonal'>
-            <img src={computer} className='image' style={{ width: '40%', float: 'right', marginTop: '290px', marginRight: '7%' }} />
+            <img src={computer} alt='computer' className='image' style={{ width: '40%', float: 'right', marginTop: '290px', marginRight: '7%' }} />
             <br /><br /><br />
             <h1 className='text'>SARAH KULBERSH</h1>
             <h3 className='text' style={{ color: '#D59B32' }}>Software Developer</h3>

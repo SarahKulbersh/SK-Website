@@ -25,7 +25,7 @@ const drawerWidth = 100;
 const navItems = ['About', 'Portfolio', 'Contact'];
 
 
-function App(props: Props) {
+function App(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
