@@ -19,6 +19,7 @@ export default function About() {
             variant="outlined"
             onClick={handleClick}
             style={{
+                cursor: "default",
                 display: "flex",
                 flexWrap: "nowrap", // Prevent wrapping
                 margin: '5px',
