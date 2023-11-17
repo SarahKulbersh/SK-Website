@@ -61,13 +61,13 @@ export default function Contact() {
                         <MDBCard className="my-4 shadow-3">
                             <MDBRow className="g-0">
                                 <MDBCol md="6" className="d-xl-block bg-image"  >
-                                    <MDBCardImage src={bg} alt="Sample photo" fluid style={{ width: '100%', height: '100%' }} />
+                                    <MDBCardImage src={bg} alt="Sample photo" fluid style={{ width: '100%', minHeight: '360px', height: '100%' }} />
                                     <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.4)' }}>
                                         <div className="justify-content-center align-items-center h-100">
                                             <div className="text-center" style={{ marginTop: '20%' }}>
 
-                                                <figure className="text-center mb-0">
-                                                    <blockquote className="blockquote text-white">
+                                                <figure className="text-center mb-0" >
+                                                    <blockquote className="blockquote text-white" >
                                                         <p className="pb-3" style={{ marginTop: '-50px' }}>
                                                             <span className="lead font-italic" style={{ fontFamily: 'dosis-medium', fontSize: '40px' }}>Let's get in touch</span>
                                                         </p>
@@ -109,7 +109,7 @@ export default function Contact() {
                                 </MDBCol>
                                 <MDBCol md="6" style={{ backgroundColor: '#D59B33' }}>
                                     <MDBCardBody className="p-md-5 text-black" >
-                                        <MDBTypography className="mb-4 " style={{ color: 'white', alignItems: 'center', fontFamily: 'dosis-medium', fontSize: '40px' }}>Get intouch</MDBTypography>
+                                        <MDBTypography className="mb-4 " style={{ color: 'white', alignItems: 'center', fontFamily: 'dosis-medium', fontSize: '40px' }}>Get in touch</MDBTypography>
 
                                         <form onSubmit={handleSubmit} className="emailForm">
 

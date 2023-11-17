@@ -34,7 +34,7 @@ export default function Portfolio() {
                             React
                         </Typography> */}
                             <Typography variant="body2" color="text.secondary" style={{ color: 'white' }}>
-                                React, MUI & MDB design liebraries
+                                React, MUI & MDB design libraries
                             </Typography>
                             <a href='https://github.com/SarahKulbersh/React-Shipping-website_using-MUI-and-MDB-design-libraries' style={{ color: 'gray' }}>To view code on github click here</a>
 

@@ -6,7 +6,7 @@ $shadow: #070509;
 
 .diagonal {
   background-image: radial-gradient(closest-side, #595959, black);
-  height: 1150px;
+  height: 1100px;
   padding: 2rem;
 
 }
@@ -45,10 +45,39 @@ body {
     margin-right: 7%;
   }
 
-
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1400px) {
+  .diagonal {
+    height: 1150px;
+
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .diagonal {
+    height: 1100px;
+
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .diagonal {
+    height: 1150px;
+
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .diagonal {
+    height: 1100px;
+
+  }
+}
+@media only screen and (max-width: 700px) {
+  .diagonal {
+    height: 1200px;
+
+  }
+}
+@media only screen and (max-width: 570px) {
   .diagonal {
     height: 1340px;
 
