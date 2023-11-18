@@ -11,7 +11,7 @@ import Alert from '@mui/material/Alert';
 import IconButton from '@mui/material/IconButton';
 import Collapse from '@mui/material/Collapse';
 import CloseIcon from '@mui/icons-material/Close';
-import bg from '../files/bg.jpg';
+import bg from '../files/bg.png';
 import './fonts.css';
 
 export default function Contact() {
@@ -58,16 +58,16 @@ export default function Contact() {
             <MDBContainer className="py-5" style={{ maxWidth: '100%' }}>
                 <MDBRow className="justify-content-center align-items-center" >
                     <MDBCol>
-                        <MDBCard className="my-4 shadow-3">
+                        <MDBCard className="my-4 shadow-3" style={{backgroundColor:'#D59B33'}}>
                             <MDBRow className="g-0">
-                                <MDBCol md="6" className="d-xl-block bg-image"  >
-                                    <MDBCardImage src={bg} alt="Sample photo" fluid style={{ width: '100%', minHeight: '360px', height: '100%' }} />
-                                    <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.4)' }}>
+                                <MDBCol md="6" className="d-xl-block bg-image">
+                                    <MDBCardImage src={bg} alt="Sample photo" fluid style={{ width: '100%', minHeight: '330px', height: '100%' }} />
+                                    <div className='mask' style={{ backgroundColor: '#000000BF' }}>
                                         <div className="justify-content-center align-items-center h-100">
                                             <div className="text-center" style={{ marginTop: '20%' }}>
 
                                                 <figure className="text-center mb-0" >
-                                                    <blockquote className="blockquote text-white" >
+                                                    <blockquote className="whitequote text-white" >
                                                         <p className="pb-3" style={{ marginTop: '-50px' }}>
                                                             <span className="lead font-italic" style={{ fontFamily: 'dosis-medium', fontSize: '40px' }}>Let's get in touch</span>
                                                         </p>
@@ -147,7 +147,7 @@ export default function Contact() {
                                                 value={message}
                                                 onChange={(e) => setMessage(e.target.value)}></MDBTextArea>
                                             <div className="d-flex justify-content-center pt-3">
-                                                <MDBBtn size="lg" type="submit" className="ms-2" style={{ backgroundColor: '#D59B33', border: '1px solid #D59B32', borderRadius: '80px', boxShadow: 'none', color: 'white', fontFamily: 'dosis-medium', fontSize: '18px', textTransform: 'none' }}>Send Message</MDBBtn>
+                                                <MDBBtn size="lg" type="submit" className="ms-2" style={{ backgroundColor: '#D59B33', border: '1px solid #D59B32', borderRadius: '5px', boxShadow: 'none', color: 'white', fontFamily: 'dosis-medium', fontSize: '18px', textTransform: 'none' }}>Send Message</MDBBtn>
                                             </div>
                                             <br />
                                             <Box sx={{ width: '100%', marginLeft: '25%' }}>

@@ -2,7 +2,6 @@ import '../files/Sarah Kulbersh.pdf';
 import { Chip } from '@mui/material';
 import { Stack } from '@mui/material';
 import { MDBBtn } from 'mdb-react-ui-kit';
-import Tooltip from '@mui/material/Tooltip';
 import './about.scss';
 import './fonts.css';
 import computer from '../files/freepik.com computer.png';
@@ -36,9 +35,7 @@ export default function About() {
 
     return (
         <div className='diagonal'>
-            <Tooltip title="Freepik.com" placement="bottom">
-                <img src={computer} alt='freepik.com' className='image' style={{ width: '40%', float: 'right', marginTop: '290px', marginRight: '7%' }} />
-            </Tooltip>
+            <img src={computer} alt='freepik.com' className='image' style={{ width: '40%', float: 'right', marginTop: '290px', marginRight: '7%' }} />
             <br /><br />
             <h1 className='text'>SARAH KULBERSH</h1>
             <h3 className='text' style={{ color: '#D59B32' }}>Software Developer</h3>
@@ -56,7 +53,7 @@ export default function About() {
                     borderRadius: '80px',
                     boxShadow: 'none',
                     textTransform: 'none',
-                    marginLeft:'6%'
+                    marginLeft: '6%'
                 }}>
                 <a href={require("../files/Sarah Kulbersh.pdf")} download="Sarah Kulbersh" style={{ color: 'white', fontFamily: 'dosis-medium', fontSize: '18px' }}>Download CV</a>
             </MDBBtn>

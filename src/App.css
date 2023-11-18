@@ -19,7 +19,7 @@ html,
 body {
   height: 100%;
   background: white;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'dosis-medium';
 }
 
 .container {
@@ -49,7 +49,7 @@ body {
   height: 100%;
   border: solid #D59B33 2px;
   color: white;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'dosis-medium';
   border-radius: 7px;
   letter-spacing: 1px;
   transition: all 0.3s ease;

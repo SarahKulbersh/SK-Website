@@ -42,14 +42,11 @@ function App(props) {
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
+            <ListItemButton sx={{ textAlign: 'center' }} style={{color:'#D59B33'}}>
               <Link activeClass="active" smooth spy to={item}>
-
-                <ListItemText primary={item} style={{ color: '#D59B33' }} />
+                <ListItemText primary={item} style={{ color: '#D59B33', fontFamily:'dosis-medium' }} />
               </Link>
-
             </ListItemButton>
-
           </ListItem>
         ))}
       </List>
@@ -85,7 +82,7 @@ function App(props) {
               {navItems.map((item) => (
                 <Link activeClass="active" smooth spy to={item}>
 
-                  <Button key={item} sx={{ color: '#D59B33' }}>
+                  <Button key={item} sx={{ color: '#D59B33', fontFamily: 'dosis-medium', fontSize: '16px' }}>
                     {item}
                   </Button>
                 </Link>
