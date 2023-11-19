@@ -54,11 +54,12 @@ export default function Contact() {
     }
 
     return (
-        <div style={{ backgroundColor: '#D59B33' }}>
+        <>
+        <div className='contact'>
             <MDBContainer className="py-5" style={{ maxWidth: '100%' }}>
                 <MDBRow className="justify-content-center align-items-center" >
                     <MDBCol>
-                        <MDBCard className="my-4 shadow-3" style={{backgroundColor:'#D59B33'}}>
+                        <MDBCard className="my-4 shadow-3" style={{backgroundColor:'black'}}>
                             <MDBRow className="g-0">
                                 <MDBCol md="6" className="d-xl-block bg-image">
                                     <MDBCardImage src={bg} alt="Sample photo" fluid style={{ width: '100%', minHeight: '330px', height: '100%' }} />
@@ -183,5 +184,6 @@ export default function Contact() {
                 </MDBRow>
             </MDBContainer>
         </div>
+        </>
     );
 }
