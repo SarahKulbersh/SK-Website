@@ -44,7 +44,7 @@ function App(props) {
           <ListItem key={item} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }} style={{color:'#D59B33'}}>
               <Link activeClass="active" smooth spy to={item}>
-                <ListItemText primary={item} style={{ color: '#D59B33', fontFamily:'dosis-medium' }} />
+                <ListItemText primary={item} style={{ color: '#D59B33'}} />
               </Link>
             </ListItemButton>
           </ListItem>
