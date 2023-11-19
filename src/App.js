@@ -150,7 +150,7 @@ function App(props) {
               </li>
             </Link>
           </ul>
-          <h6 style={{ color: 'white', marginTop: '-50px', marginBottom: '30px' }}>Sarah Kulbersh Web development & design 2023</h6>
+          <h6 style={{ color: 'white', marginTop: '-50px', marginBottom: '30px' }}>Sarah Kulbersh Web Development & Design 2023</h6>
 
         </div>
 
