@@ -4,7 +4,7 @@ import { Stack } from '@mui/material';
 import { MDBBtn } from 'mdb-react-ui-kit';
 import './about.scss';
 import './fonts.css';
-import computer from '../files/freepik.com computer.png';
+import computer from '../files/computer.png';
 export default function About() {
 
 
@@ -35,7 +35,7 @@ export default function About() {
 
     return (
         <div className='diagonal'>
-            <img src={computer} alt='freepik.com' className='image' style={{ width: '40%', float: 'right', marginTop: '290px', marginRight: '7%' }} />
+            <img src={computer} alt='computer' className='image' style={{ width: '40%', float: 'right', marginTop: '290px', marginRight: '7%' }} />
             <br /><br />
             <h1 className='text'>SARAH KULBERSH</h1>
             <h3 className='text' style={{ color: '#D59B32' }}>Software Developer</h3>
