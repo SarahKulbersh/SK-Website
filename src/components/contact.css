@@ -9,5 +9,5 @@ a {
 }
 
 .contact{
-  background-image: radial-gradient(closest-side, white, white, black);
+  background-image: radial-gradient(closest-side, white ,black);
 }
