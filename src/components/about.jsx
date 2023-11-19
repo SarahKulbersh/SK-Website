@@ -39,11 +39,7 @@ export default function About() {
             <br /><br />
             <h1 className='text'>SARAH KULBERSH</h1>
             <h3 className='text' style={{ color: '#D59B32' }}>Software Developer</h3>
-            <h4 className='text'>I am a developer with a passion for design and creativity. I have experience working with After Effects, Illustrator, UI/UX design, and various programming languages. I am skilled at creating engaging and visually appealing video content, as well as designing and developing user-friendly and efficient interfaces.
-
-                I am passionate about createing positive experiences for people.
-
-                I am always looking for new and innovative ways to use my skills to make a difference in the world. If you have a project that you think I could help with, please don't hesitate to contact me.</h4>
+            <h4 className='text'>I am a developer with a proficiency for design and creativity. I have experience working with After Effects, Illustrator, UI/UX design, and various programming languages. I am skilled at creating engaging and visually appealing video content. With my expertise in design, I develop user-friendly and efficient interfaces to create positive experiences for people. I am always looking for new ways to use my skills to make a difference in the world. If you have a project that you think I could help with, please don't hesitate to contact me.</h4>
             <br />
             <MDBBtn size="lg"
                 className="ms2"
