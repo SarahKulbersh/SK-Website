@@ -170,7 +170,7 @@ export default function Contact() {
                                                         }
                                                         sx={{ mb: 2 }}
                                                     >
-                                                        Message was sent successfully!!
+                                                        Thank you for your message!
                                                     </Alert>
                                                 </Collapse>
                                             </Box>
