@@ -19,6 +19,20 @@ a {
 @media only  screen and (max-width: 500px) {
 
   .contactinfo{
-    margin-left: 15%;
+    margin-left: 5%;
+  }
+}
+
+@media only  screen and (max-width: 500px) {
+
+  .contactinfo{
+    margin-left: 5%;
+  }
+}
+
+@media only  screen and (max-width:420px) {
+
+  .contactinfo{
+    margin-left: 2%;
   }
 }

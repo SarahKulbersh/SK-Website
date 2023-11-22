@@ -11,7 +11,7 @@ export default function About() {
     function handleClick() {
 
     }
-    const array = ["React", "Node.js", "Angular", "C#", "OOP", "Java", "MongoDB", "SQL", "UI/UX", "Responsive design", "CSS3", "HTML5", ".NET Core", "Docker", "Swagger", "API's", "Git", "Redux", "Postman"];
+    const array = ["React", "Angular", "JavaScript", "TypeScript",  "Node.js","Java" ,"C#", ".NET Core", "OOP",  "MongoDB", "SQL", "UI/UX", "Responsive design", "CSS3", "HTML5",  "Docker", "Swagger", "API's", "Git", "Redux", "Postman"];
 
     const chips = array.map((label) => (
         <Chip
@@ -36,7 +36,7 @@ export default function About() {
     return (
         <div className='diagonal'>
             <img src={computer} alt='computer' className='image' style={{ width: '40%', float: 'right', marginTop: '290px', marginRight: '7%' }} />
-            <br /><br />
+            <br />
             <h1 className='text'>SARAH KULBERSH</h1>
             <h3 className='text' style={{ color: '#D59B32' }}>Software Developer</h3>
             <h4 className='text'>I am a developer with a proficiency in design and creativity. I have experience working with After Effects, Illustrator, UI/UX design, and various programming languages. With my expertise in design, I develop user-friendly and efficient interfaces to create positive experiences for people. I am always looking for new ways to use my skills to make a difference in the world. If you have a project that you think I could help with, please don't hesitate to contact me.</h4>
