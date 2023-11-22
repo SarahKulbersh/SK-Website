@@ -9,5 +9,16 @@ a {
 }
 
 .contact{
-  background-image: radial-gradient(closest-side, white ,black);
+  background-image: radial-gradient(closest-side, white, white, white, white ,black);
+}
+
+.contactinfo {
+  margin-left: 25%;
+}
+
+@media only  screen and (max-width: 500px) {
+
+  .contactinfo{
+    margin-left: 15%;
+  }
 }
