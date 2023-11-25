@@ -8,25 +8,40 @@ a {
   font-size: 16px;
 }
 
-.contact{
-  background-image: radial-gradient(closest-side, white, white, white, white ,black);
-}
 
 .contactinfo {
   margin-left: 25%;
 }
+@media only  screen and (max-width: 1300px) {
 
-@media only  screen and (max-width: 500px) {
+  .contactinfo{
+    margin-left: 15%;
+  }
+}
+@media only  screen and (max-width: 900px) {
 
   .contactinfo{
     margin-left: 5%;
   }
 }
-
-@media only  screen and (max-width: 500px) {
+@media only  screen and (max-width: 765px) {
 
   .contactinfo{
-    margin-left: 5%;
+    margin-left: 25%;
+  }
+}
+
+@media only  screen and (max-width:650px) {
+
+  .contactinfo{
+    margin-left: 15%;
+  }
+}
+
+@media only  screen and (max-width:500px) {
+
+  .contactinfo{
+    margin-left: 7%;
   }
 }
 

@@ -59,7 +59,7 @@ export default function Contact() {
                 <div style={{paddingRight:'20px', paddingLeft:'20px'}}>
                     <MDBRow className="justify-content-center align-items-center" >
                         <MDBCol>
-                            <MDBCard className="my-4 shadow-3" style={{ backgroundColor: 'black' }}>
+                            <MDBCard className="my-4 shadow-3" >
                                 <MDBRow className="g-0">
                                     <MDBCol md="6" className="d-xl-block bg-image">
                                         <MDBCardImage src={bg} alt="Sample photo" fluid style={{ width: '100%', height: '100%', minHeight: '330px' }} />
