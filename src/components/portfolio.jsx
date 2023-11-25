@@ -14,7 +14,6 @@ export default function Portfolio() {
 
     return (
         <div className='divdiv' >
-            <br />
             <h3 style={{ color: 'black', marginTop: '60px' }}>Project Demos</h3>
             <br />
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', minHeight: '100%', marginBottom: '100px' }}>

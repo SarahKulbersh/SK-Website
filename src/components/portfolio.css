@@ -7,7 +7,11 @@
 
 .divdiv {
   background-color: #D59B33;
-  padding: 2rem;
+  padding-top: 0.1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+
   clip-path: polygon(0 0, 100% 14%, 100% 100%, 0 90%);
   margin-top: -300px;
 
