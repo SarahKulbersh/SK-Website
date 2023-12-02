@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import mastermind from '../files/mastermind.mp4';
 import babystore from '../files/store.mp4';
-import textsearch from '../files/textsearch.mp4';
+import textsearch from '../files/tanachSearch.mp4';
 import mail from '../files/mail.mp4';
 import './portfolio.css';
 
