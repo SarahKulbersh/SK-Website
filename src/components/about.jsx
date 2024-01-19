@@ -11,7 +11,7 @@ export default function About() {
     function handleClick() {
 
     }
-    const array = ["React", "Angular", "JavaScript", "TypeScript",  "Node.js","Java" ,"C#", ".NET Core", "OOP",  "MongoDB", "SQL", "UI/UX", "Responsive design", "CSS3", "HTML5",  "Docker", "Swagger", "API's", "Git", "Redux", "Postman"];
+    const array = ["React", "Angular", "JavaScript", "Firebase",  "Node.js","Java" ,"C#", ".NET Core", "OOP",  "MongoDB", "SQL", "UI/UX", "Responsive design", "CSS3", "HTML5",  "Docker", "Swagger", "API's", "Git", "Redux", "Postman"];
 
     const chips = array.map((label) => (
         <Chip
